@@ -144,10 +144,17 @@ img {
 }
 
  @media handheld, screen and (max-width : 600px) {
-    body {
-        width: 95%;
-    }
     
+    .content {
+        margin-top: 190px;
+        width: 90%;
+     } 
+     
+     .anchor::before {
+  height: 260px;
+  margin: -260px 0 0;
+}
+     
     img {
         width: 80%;
         height: 80%;

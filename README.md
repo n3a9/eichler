@@ -12,6 +12,4 @@ Check out the website at [http://tiny.cc/eichler](http://tiny.cc/eichler).
 
 ## Typography
 
-With the help of [Font Pair](http://fontpair.co):
-
-Headers are [Cabin](http://www.google.com/fonts/specimen/Cabin) and body sections are [Average](http://www.google.com/fonts/specimen/Average). 
+With the help of [Font Pair](http://fontpair.co): headers are [Cabin](http://www.google.com/fonts/specimen/Cabin) and body sections are [Average](http://www.google.com/fonts/specimen/Average). 
