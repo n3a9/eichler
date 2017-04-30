@@ -9,8 +9,30 @@ body {
 }
 
 .content {
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
+}
+
+.anchor {
+    width: 100%;
+    overflow: hidden;
+}
+
+.anchor::before {
+  content: "";
+  display: block;
+  height: 55px;
+  margin: -55px 0 0;
+}
+
+.left {
+    width: 49%;
+    float: left;
+}
+
+.right {
+    width: 49%;
+    float: right;
 }
 
 /*Navigation Styling START*/
@@ -93,12 +115,7 @@ nav {
 
 /*Navigation Styling END*/
 
-.anchor::before {
-  content: "";
-  display: block;
-  height: 70px;
-  margin: -70px 0 0;
-}
+
 
 #section {
     padding-bottom: 3em;
@@ -107,7 +124,7 @@ nav {
 h1 {
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
-    font-size: 1.8em;
+    font-size: 1.9em;
 }
 
 h2 {
@@ -159,9 +176,9 @@ img {
      } 
      
      .anchor::before {
-  height: 260px;
-  margin: -260px 0 0;
-}
+         height: 260px;
+         margin: -260px 0 0;
+     }
      
     img {
         width: 80%;
