@@ -123,6 +123,14 @@ p {
     font-size: 1.25em;
 }
 
+.quote {
+    font-family: 'Old Standard TT', serif;
+}
+
+.annotation {
+    font-family: 'Lora', serif;
+}
+
 img {
     width: 60%;
     height: 60%;
