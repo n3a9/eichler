@@ -2,13 +2,15 @@
 
 My history project on Eichler homes in post WWII society for Ms. Rees & Ms. Cranston, Honors US History period 7.
 
-Check out the website at [http://tiny.cc/eichler](http://tiny.cc/eichler).
+Check out the website at [http://tiny.cc/eichler](http://tiny.cc/eichler), and the citations at [http://tiny.cc/eichlerdocs](http://tiny.cc/eichlerdocs).
 
 ## Technology
 
 [Bootstrap 3](http://getbootstrap.com/) & [jQuery](https://jquery.com/).
 
 [smooth-scroll.js](https://github.com/cferdinandi/smooth-scroll) for the smooth scrolling experience.
+
+Used [TWBS color](https://work.smarchal.com/twbscolor/) to help style the nav bar.
 
 ## Typography
 
