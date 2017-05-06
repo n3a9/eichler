@@ -137,23 +137,31 @@ h2 {
 p {
     padding-top: .5em;
     font-family: 'Average', serif;
+    font-weight:400;
+    font-style: normal;
     font-size: 1.25em;
 }
 
 .quote {
     font-family: 'Old Standard TT', serif;
+    font-weight:400;
+    font-style:italic;
     width: 90%;
     margin: 0 auto;
 }
 
 .annotation {
     font-family: 'Lora', serif;
+    font-weight:400; 
+    font-style:italic;
 }
 
 .cap {
     padding: 0;
     text-align: center;
     font-family: 'Lora', serif;
+    font-weight:400;
+    font-style:italic;
 }
 
 img {
@@ -196,4 +204,12 @@ img {
         width: 80%;
         height: 80%;
     }
+     
+     .left {
+         width: 100%;
+     }
+     
+     .right {
+         width: 100%;
+     }
 }
