@@ -30,6 +30,13 @@ body {
     float: right;
 }
 
+.vertical-center {
+  min-height: 100%;  /*Fallback for browsers do NOT support vh unit*/
+  min-height: 100vh; /*These two lines are counted as one*/
+  display: flex;
+  align-items: center;
+}
+
 /*Navigation Styling START*/
 
 nav {
@@ -110,8 +117,6 @@ nav {
 
 /*Navigation Styling END*/
 
-
-
 #section {
     padding-bottom: 3em;
 }
@@ -145,9 +150,19 @@ p {
     font-family: 'Lora', serif;
 }
 
+.cap {
+    padding: 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
 img {
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
+    padding: 1em;
+    padding-top: 3em;
+    display: block;
+    margin: 0 auto;
 }
 
 #footer {
