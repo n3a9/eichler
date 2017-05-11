@@ -42,6 +42,7 @@ body {
 nav {
     font-family: 'Cabin', sans-serif;
     font-weight: 400;
+    border-bottom-style: solid;
 }
 
 .navbar-default {
